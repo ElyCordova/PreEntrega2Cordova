@@ -4,6 +4,7 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import NavBar from './Components/NavBar/NavBar';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NotFound from './Components/NotFound';
 
 function App() {
   
@@ -14,6 +15,8 @@ function App() {
         <NavBar/>
         <Routes>
           <Route exact path="/"element={<ItemListContainer/>}/>
+
+          <Route path='*'element={<NotFound/>}/>
         </Routes> 
       </div>
     </>

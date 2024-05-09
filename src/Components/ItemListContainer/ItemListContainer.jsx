@@ -10,7 +10,7 @@ const fetchItems = () => {
             resolve([
                     {
                         id: 1,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://www.boticadejabon.com/cdn/shop/products/ChocolateMenta.png?v=1648695932",
                         name: 'Product 1',
                         categoria: "jabones",
                         description: "Jabón de Avena",
@@ -18,7 +18,7 @@ const fetchItems = () => {
                     },
                     {
                         id: 2,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-evz3_JCT8D0gSPFCsTTZdqyQYwFqPadkayfty7OwbTkp6jIyGjICBj1fElMj95sB6M&usqp=CAU",
                         name: 'Product 2',
                         categoria: "aceites",
                         description: "Aceite de Romero",
@@ -26,7 +26,7 @@ const fetchItems = () => {
                     },
                     {
                         id: 3,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://imag.bonviveur.com/mermelada-de-frutos-rojos-sin-azucar.jpg",
                         name: 'Product 3',
                         categoria: "jaleas",
                         description: "Jalea de Moras",
@@ -34,7 +34,7 @@ const fetchItems = () => {
                     },
                     {
                         id: 4,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://www.boticadejabon.com/cdn/shop/products/ChocolateMenta.png?v=1648695932",
                         name: 'Product 4',
                         categoria: "jabones",
                         description: "Jabón de Leche y Miel",
@@ -42,7 +42,7 @@ const fetchItems = () => {
                     },
                     {
                         id: 5,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-evz3_JCT8D0gSPFCsTTZdqyQYwFqPadkayfty7OwbTkp6jIyGjICBj1fElMj95sB6M&usqp=CAU",
                         name: 'Product 5',
                         categoria: "aceites",
                         description: "Aceite de Rosas",
@@ -50,7 +50,7 @@ const fetchItems = () => {
                     },
                     {
                         id: 6,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://imag.bonviveur.com/mermelada-de-frutos-rojos-sin-azucar.jpg",
                         name: 'Product 6',
                         categoria: "jaleas",
                         description: "Jalea de Fresas",
@@ -58,7 +58,7 @@ const fetchItems = () => {
                     },
                     {
                         id: 7,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://www.boticadejabon.com/cdn/shop/products/ChocolateMenta.png?v=1648695932",
                         name: 'Product 7',
                         categoria: "jabones",
                         description: "Jabón de Pepino",
@@ -66,7 +66,7 @@ const fetchItems = () => {
                     },
                     {
                         id: 8,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-evz3_JCT8D0gSPFCsTTZdqyQYwFqPadkayfty7OwbTkp6jIyGjICBj1fElMj95sB6M&usqp=CAU",
                         name: 'Product 8',
                         categoria: "aceites",
                         description: "Aceite de Almendras",
@@ -74,7 +74,7 @@ const fetchItems = () => {
                     },
                     {
                         id: 9,
-                        imageUrl: "https://picsum.photos/200",
+                        imageUrl: "https://imag.bonviveur.com/mermelada-de-frutos-rojos-sin-azucar.jpg",
                         name: 'Product 9',
                         categoria: "jaleas",
                         description: "Jalea de Duraznos",
