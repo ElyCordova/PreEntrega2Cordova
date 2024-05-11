@@ -1,16 +1,17 @@
 import './ItemDetail.css';
 
-const Item = ( { item }) => {
+const Item = ({ item }) => {
   return (
     <>
-    <div className="item-card">
-      <img src={item.imageUrl} alt={item.name} className="item-image" />
-      <div className="item-details">
-        <h3 className="item-name">{ item.name}</h3>
-        <h4 className="item-description">{ item.description}</h4>
-        <p className="item-price">Precio: ${item.price}</p> 
-      </div>  
-    </div>
+      <div className="col-md-4">
+        <div className="item-card text-center">
+          <img src={item.imageUrl} alt={item.name} className="item-image" />
+          <div className="item-details">
+            <p className="item-name">{item.name}</p>
+            <p className="item-price"><b>${item.price} MXN</b></p>
+          </div>
+        </div>
+      </div>
     </>
   )
 };

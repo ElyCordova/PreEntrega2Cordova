@@ -1,13 +1,14 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
+import arrayProductos from "../json/Productos.json";
 
 
 
 const fetchItems = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve()
+            resolve( arrayProductos )
         }, 2000)
     })
 };
@@ -28,13 +29,13 @@ const ItemListContainer = () => {
     }, []);
 
     return (
-        <div className="item-list-container">
+        <div className="container my-5">
+            <div className="row">    
             <h1>Opciones naturales para ti</h1>
             {
-                loading
-                ? <div>Cargando...</div>
-                : <ItemList items={ items } />
+                loading ? <div>Cargando...</div> : <ItemList items={ items } />
             }
+            </div>
         </div>
     )
 };

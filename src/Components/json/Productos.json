@@ -1,74 +1,50 @@
 [
     {
         "id": 1,
-        "imageUrl": "https://www.boticadejabon.com/cdn/shop/products/ChocolateMenta.png?v=1648695932",
-        "name": "Product 1",
-        "categoria": "jabones",
-        "description": "Jabón de Avena",
-        "price": 25
+        "imageUrl": "https://acdn.mitiendanube.com/stores/001/070/304/products/29-shiri1-40fbbcc69e737b62ec16068395338473-1024-1024.webp",
+        "name": "Jabones Naturales",
+        "category": "linea_piel",
+        "description": "Nuestros jabones naturales están hechos con glicerina vegetal, aceite de coco y aceites esenciales.",
+        "price": 150
     },
     {
         "id": 2,
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-evz3_JCT8D0gSPFCsTTZdqyQYwFqPadkayfty7OwbTkp6jIyGjICBj1fElMj95sB6M&usqp=CAU",
-        "name": "Product 2",
-        "categoria": "aceites",
-        "description": "Aceite de Romero",
-        "price": 50
+        "imageUrl": "https://acdn.mitiendanube.com/stores/001/070/304/products/42-agua-de-rosas1-27ae6b7b1df9a093fa16914552059263-1024-1024.webp",
+        "name": "Agua de Rosas",
+        "category": "linea_piel",
+        "description": "El agua de rosas es un componente esencial que equilibra el pH de la piel, reduciendo la inflamación y el enrojecimiento.",
+        "price": 320
     },
     {
         "id": 3,
-        "imageUrl": "https://imag.bonviveur.com/mermelada-de-frutos-rojos-sin-azucar.jpg",
-        "name": "Product 3",
-        "categoria": "jaleas",
-        "description": "Jalea de Moras",
-        "price": 30
+        "imageUrl": "https://acdn.mitiendanube.com/stores/001/070/304/products/9-shampoo21-a3bd857c2a07f8434f16914537043259-1024-1024.webp",
+        "name": "Shampoo Solido - Cabello Neutro",
+        "category": "linea_capilar",
+        "description": "El shampoo ofrece una limpieza efectiva y espumosa. Gracias a sus ingredientes, logra humectar, nutrir, hidratar y estimular el crecimiento del cabello.",
+        "price": 220
     },
     {
         "id": 4,
-        "imageUrl": "https://www.boticadejabon.com/cdn/shop/products/ChocolateMenta.png?v=1648695932",
-        "name": "Product 4",
-        "categoria": "jabones",
-        "description": "Jabón de Leche y Miel",
-        "price": 25
+        "imageUrl": "https://acdn.mitiendanube.com/stores/001/070/304/products/shiri-natural-junio-41-cdbc207090b8b48db716939169616657-1024-1024.webp",
+        "name": "Acondicionador Solido",
+        "category": "linea_capilar",
+        "description": "El acondicionador es un producto capilar diseñado para proporcionar hidratación y nutrición al cabello, dejándolo suave, manejable y desenredado.",
+        "price": 350
     },
     {
         "id": 5,
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-evz3_JCT8D0gSPFCsTTZdqyQYwFqPadkayfty7OwbTkp6jIyGjICBj1fElMj95sB6M&usqp=CAU",
-        "name": "Product 5",
-        "categoria": "aceites",
-        "description": "Aceite de Rosas",
-        "price": 50
+        "imageUrl": "https://acdn.mitiendanube.com/stores/001/070/304/products/116-almohadillas1-d03f7edcfe650d4a2016914785609986-1024-1024.webp",
+        "name": "Almohadilla de Calor o Frio",
+        "category": "linea_aromaterapia",
+        "description": "Almohadillas rellenas de semillas de lavanda, que ayudan a relajar, calmar y conciliar el sueño. La Almohadilla tiene la capacidad de mantener el calor o el frío, según se prefiera. ",
+        "price": 420
     },
     {
         "id": 6,
-        "imageUrl": "https://imag.bonviveur.com/mermelada-de-frutos-rojos-sin-azucar.jpg",
-        "name": "Product 6",
-        "categoria": "jaleas",
-        "description": "Jalea de Fresas",
-        "price": 30
-    },
-    {
-        "id": 7,
-        "imageUrl": "https://www.boticadejabon.com/cdn/shop/products/ChocolateMenta.png?v=1648695932",
-        "name": "Product 7",
-        "categoria": "jabones",
-        "description": "Jabón de Pepino",
-        "price": 25
-    },
-    {
-        "id": 8,
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-evz3_JCT8D0gSPFCsTTZdqyQYwFqPadkayfty7OwbTkp6jIyGjICBj1fElMj95sB6M&usqp=CAU",
-        "name": "Product 8",
-        "categoria": "aceites",
-        "description": "Aceite de Almendras",
-        "price": 50
-    },
-    {
-        "id": 9,
-        "imageUrl": "https://imag.bonviveur.com/mermelada-de-frutos-rojos-sin-azucar.jpg",
-        "name": "Product 9",
-        "categoria": "jaleas",
-        "description": "Jalea de Duraznos",
-        "price": 30
+        "imageUrl": "https://acdn.mitiendanube.com/stores/001/070/304/products/117-velas1-85be92322c64b2ed3316914798072336-1024-1024.webp",
+        "name": "Velas Aromáticas de Cera de Soja",
+        "category": "linea_aromaterapia",
+        "description": "Elaboradas con cera de soja para su mayor durabilidad. En frascos reutilizados.",
+        "price": 530
     }
 ]
