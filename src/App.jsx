@@ -9,18 +9,16 @@ import NotFound from './Components/NotFound';
 function App() {
   
   return (
-    <BrowserRouter>
     <>
-      <div>
+      <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route exact path="/"element={<ItemListContainer/>}/>
+          <Route exact path={"/"} element={<ItemListContainer/>}/>
 
           <Route path='*'element={<NotFound/>}/>
         </Routes> 
-      </div>
+      </BrowserRouter>
     </>
-    </BrowserRouter>
   )
 }
 
