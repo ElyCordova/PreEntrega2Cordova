@@ -1,19 +1,21 @@
-import './ItemDetail.css';
+import ItemCount from "../ItemCount/ItemCount";
 
-const Item = ({ item }) => {
+const ItemDetail = ({ item }) => {
   return (
-    <>
-      <div className="col-md-4">
-        <div className="item-card text-center">
-          <img src={item.imageUrl} alt={item.name} className="item-image" />
-          <div className="item-details">
-            <p className="item-name">{item.name}</p>
-            <p className="item-price"><b>${item.price} MXN</b></p>
-          </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4">
+          <img src={item.imageUrl} alt={item.name} className="img-fluid" />
+        </div>
+        <div className="col-md-8">
+          <h1>{item.name}</h1>
+          <p className="item-price"><b>${item.price} MXN</b></p>
+          <p>{item.description}</p>
+          <ItemCount stock={item.stock} />
         </div>
       </div>
-    </>
+    </div>
   )
 };
 
-export default Item;
+export default ItemDetail;

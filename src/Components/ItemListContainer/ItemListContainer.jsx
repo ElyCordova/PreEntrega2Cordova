@@ -2,7 +2,8 @@ import React from "react";
 import { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
 import arrayProductos from "../json/Productos.json";
-import ItemCount from "../ItemCount/ItemCount";
+import Loading from "../Loading/Loading";
+import ItemDetailContainer from "../ItemDetail/ItemDetailContainer";
 
 
 
@@ -32,12 +33,10 @@ const ItemListContainer = () => {
     return (
         <div className="container my-5">
             <div className="row">    
-            <h1>Opciones naturales para ti</h1>
             {
-                loading ? <div>Cargando...</div> : <ItemList items={ items } />
+                loading ? < Loading /> : <ItemList items={ items } />
             }
-
-            <ItemCount stock={10} />
+            <ItemDetailContainer/>
             </div>
         </div>
     )
