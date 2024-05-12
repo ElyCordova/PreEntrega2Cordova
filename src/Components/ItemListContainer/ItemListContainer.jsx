@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import ItemList from "../ItemList/ItemList";
 import arrayProductos from "../json/Productos.json";
+import ItemCount from "../ItemCount/ItemCount";
 
 
 
@@ -35,6 +36,8 @@ const ItemListContainer = () => {
             {
                 loading ? <div>Cargando...</div> : <ItemList items={ items } />
             }
+
+            <ItemCount stock={10} />
             </div>
         </div>
     )

@@ -13,15 +13,15 @@ function NavBar() {
       <div className="row" >
       <div className="col"></div>
         <div className="col">
-          <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Linea Piel</a>
+          <ul className="nav justify-content-center">
+            <li className="nav-item">
+              <a className="nav-link text-secondary" href="#">Linea Piel</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Linea Capilar</a>
+            <li className="nav-item">
+              <a className="nav-link text-secondary" href="#">Linea Capilar</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-secondary" href="#">Linea Aromaterapia</a>
+            <li className="nav-item">
+              <a className="nav-link text-secondary" href="#">Linea Aromaterapia</a>
             </li>
           </ul>
         </div>
