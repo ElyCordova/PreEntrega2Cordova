@@ -1,13 +1,17 @@
 import CartWidget from '../CartWidget/CartWidget';
+import { Link, NavLink } from 'react-router-dom';
+
 
 function NavBar() {
   return (
     <div className="container">
       <div className="row my-3">
         <div className="col text-center">
-          <img src='https://acdn.mitiendanube.com/stores/001/070/304/themes/common/logo-256865518-1659190912-fd89c452a45cd9441d9e929b2d7616cc1659190912-320-0.webp'
+          <Link to={"/"}>
+            <img src='https://acdn.mitiendanube.com/stores/001/070/304/themes/common/logo-256865518-1659190912-fd89c452a45cd9441d9e929b2d7616cc1659190912-320-0.webp'
             alt='Jabones Naturales'
             width={160} />
+          </Link>
         </div>
       </div>
       <div className="row" >
@@ -15,13 +19,13 @@ function NavBar() {
         <div className="col">
           <ul className="nav justify-content-center">
             <li className="nav-item">
-              <a className="nav-link text-secondary" href="#">Linea Piel</a>
+              <NavLink className="nav-link text-secondary" to={"/category/linea_piel"}>Linea Piel</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary" href="#">Linea Capilar</a>
+              <NavLink className="nav-link text-secondary" to={"/category/linea_capilar"}>Linea Capilar</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-secondary" href="#">Linea Aromaterapia</a>
+              <NavLink className="nav-link text-secondary" to={"/category/linea_aromaterapia"}>Linea Aromaterapia</NavLink>
             </li>
           </ul>
         </div>
