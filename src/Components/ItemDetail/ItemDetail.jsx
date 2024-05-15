@@ -2,7 +2,7 @@ import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = ({ item }) => {
   return (
-    <div className="container">
+    <div className="container my-5">
       <div className="row">
         <div className="col-md-4">
           <img src={item.imageUrl} alt={item.name} className="img-fluid" />

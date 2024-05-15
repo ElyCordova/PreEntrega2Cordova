@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import arrayProductos from "../json/Productos.json";
 import Loading from "../Loading/Loading";
 import ItemDetail from "./ItemDetail";
+import { useParams } from "react-router-dom";
 
 const fetchItems = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
-            const producto = arrayProductos.find(item => item.id === 1);
-            resolve(producto);
+            resolve(arrayProductos);
         }, 2000)
     })
 };
@@ -15,16 +15,17 @@ const fetchItems = () => {
 const ItemDetailContainer = () => {
     const [item, setItem] = useState({});
     const [loading, setLoading] = useState(true);
+    const {id} = useParams();
 
     useEffect(() => {
         const fetchData = async () => {
             const data = await fetchItems();
-            setItem(data);
+            setItem(id ? data.find(item => item.id == id) : {});
             setLoading(false);
         };
 
         fetchData();
-    }, []);
+    }, [id]);
 
     return (
         <>
